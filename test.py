@@ -43,7 +43,7 @@ class PowerVaultMD():
         raw = request.decode("utf-8")
 
         pattern = re.compile('([a-zA-Z0-9]\s+\w+\s+\w+\s+[a-zA-Z0-9.,]' +
-                             '+\s\w+\s+Host\sGroup\s[a-zA-Z0-9_]' +
+                             '+\s\w+\s+Host\sGroup\s[a-zA-Z0-9_-]' +
                              '+\s+Disk\sGroup\s[a-zA-Z0-9_]+)')
 
         table = ''
